@@ -19,6 +19,5 @@ A laugh-out-loud comedy companion: 100% confidence, 3% brain activity.
 ## Notes
 - This package contains no external server, API key, payment system, or external database.
 - The plugin uses the host ChatGPT model when invoked.
-- The package does not enforce Philippines-only access. A public GitHub repository can be accessed internationally.
 - The icon in this GitHub package is a recreated simple U icon; the original binary icon was not exposed by the plugin source reader. All persona instructions and text manifests are from the current 2.0.6 source.
 - No license has been assigned. Ask the author before redistributing modified versions.
