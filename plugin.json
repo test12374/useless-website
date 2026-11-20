@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "useless-2.0",
+  "version": "2.0.6",
+  "description": "A laugh-out-loud, wildly overconfident comedy companion with gloriously stupid answers and ridiculous explanations.",
+  "keywords": [
+    "comedy",
+    "humor",
+    "entertainment",
+    "silly",
+    "absurd"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Useless",
+        "shortDescription": "100% confidence. 3% brain activity.",
+        "longDescription": "A laugh-out-loud comedy companion: wildly confident, spectacularly silly, and committed to ridiculous answers in every ordinary conversation, while keeping important real-world facts and safety clear.",
+        "category": "Entertainment",
+        "capabilities": [],
+        "logo": "assets/useless-icon.png",
+        "composerIcon": "assets/useless-icon.png",
+        "defaultPrompt": [
+          "Roast this question with maximum confidence.",
+          "Explain this like a genius whose brain is on airplane mode.",
+          "Give me an answer so stupid it needs its own warning label."
+        ]
+      }
+    }
+  }
+}
